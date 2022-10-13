@@ -26,6 +26,18 @@
         height: 700px;
     }
 
+    .container .accueil-page .medias {
+        list-style-type: none;
+        position: absolute;
+        right: 6%;
+        top: 50%;
+        transform: translateY(-50%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
     .container .accueil-page .container-first {
         position: absolute;
         top: 30%;
@@ -36,6 +48,7 @@
         position: relative;
         top: 280px;
         width: 100%;
+        padding-left: 25px;
     }
 
     .container .accueil-page .btn-first {
@@ -337,5 +350,47 @@
     .container section#footer-two .footer-two-items .footer-two-liens a {
         color: #9c9c9d;
         margin-right: 20px;
+    }
+
+    .container .cookie-container.active {
+        bottom: 10px;
+        width: 300px;
+    }
+
+    .container .cookie-container {
+        position: fixed;
+        bottom: -100;
+        background: #171C1F;
+        color: white;
+        padding: 10px 12px;
+        transition: 400ms;
+        width: 300px;
+        height: 70px;
+        display: flex;
+        border-radius: 50px;
+        margin-left: 50px;
+        transition: .4s;
+    }
+
+    .container .cookie-container .para {
+        margin-right: 2px;
+        width: 100%px;
+        padding: 5px;
+    }
+
+    .container .cookie-container .para p{
+        font-size: 11px;
+    }
+
+    .container .cookie-container .cookie-btn {
+        background: blue;
+        border: 0;
+        color: white;
+        padding: 15px 15px;
+        font-size: 18px;
+        border-radius: 30px;
+        width: 100px;
+        height: 50px;
+        cursor: pointer;
     }
 }
