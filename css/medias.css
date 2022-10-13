@@ -1,4 +1,4 @@
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
 
     header{
         position: fixed;
@@ -18,22 +18,50 @@
     }
 
     .container .accueil-page {
-        width: 400px;
+        width: 100%;
         padding-bottom: 500px;
-        background: url(/images/bgc.jpg);
+        background-image: url(/images/accueil.jpg);
         background-size: cover;
+        margin-bottom: 25px;
         height: 700px;
     }
 
+    .container .accueil-page .container-first {
+        position: absolute;
+        top: 30%;
+        left: 15%;
+    }
+
+    .container .accueil-page .container-btns {
+        position: relative;
+        top: 280px;
+        width: 100%;
+    }
+
+    .container .accueil-page .btn-first {
+        border: 2px solid #DE2588;
+        outline: none;
+        background: transparent;
+        font-size: 25px;
+        padding: 20px;
+        width: 160px;
+        height: 80px;
+        color: #f1f1f1;
+        cursor: pointer;
+        border-radius: 50px;
+        margin-bottom: 15px;
+    }
+
     .container .accueil-page h1 span {
-        font-size: 30px;
+        font-size: 28px;
     }
 
     .container .accueil-page .container-first .container-btns .b2 {
         width: 350px;
         height: 93px;
-        font-size: 23px;
+        font-size: 22px;
         border-radius: 50px;
+        margin-left: 1px;
     }
 
     .container section#partenaires .partenaire-logo h1 {
@@ -42,15 +70,33 @@
         font-size: 15px;
     }
 
+    .container section#partenaires .partenaire-logo .pat-logo-un img {
+        width: 80px;
+        height: 80px;
+        margin-right: 1px;
+    }
+
+    .container section#partenaires .partenaire-logo .pat-logo-deux img {
+        width: 80px;
+        height: 80px;
+        margin-right: 1px;
+    }
+
     .container section#partenaires .partenaire-logo a {
         color: #097cf6;
-        font-size: 15px;
+        font-size: 17px;
     }
 
     .container section#navigation{
         border: 1px solid rgb(180, 179, 179);
         border-radius: 10px;
         padding: 0 5px;
+    }
+
+    .container section#navigation h1 {
+        color: #fff;
+        font-size: 35px;
+        padding-bottom: 10px;
     }
 
     .container section#navigation p {
@@ -62,15 +108,23 @@
 
     .container section#mentorat {
         width: 100%;
-        height: 700px;
+        height: 600px;
         padding: 10px;
         margin-bottom: 25px;
         border: 1px solid rgb(180, 179, 179);
         border-radius: 10px;
+        margin-top: 25px;
     }
 
     .container section#mentorat .mentorat-item {
-        flex-direction: column;
+        flex-direction: column-reverse;
+    }
+
+    .container section#mentorat .mentorat-item .mentorat-notes {
+        align-items: center;
+        text-align: center;
+        padding-top: 1px;
+        padding-bottom: 25px;
     }
 
     .container section#mentorat .mentorat-item .mentorat-img img {
@@ -89,7 +143,7 @@
     }
 
     .container section#search .search-item {
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
 
     .container section#search .search-item .search-img img {
@@ -101,7 +155,8 @@
     .container section#search .search-item .search-notes {
         align-items: center;
         text-align: center;
-        padding-top: 8px;
+        padding-bottom: 25px;
+        padding-top: 1px;
     }
 
     .container section#customer {
@@ -122,6 +177,12 @@
         margin-bottom: 25px;
     }
 
+    .container section#customer .customer-item .customer-notes h1 {
+        color: #fff;
+        font-size: 50px;
+        padding-top: 10px;
+    }
+
     .container section#customer .customer-item .customer-img img {
         width: 100%;
         height: 500px;
@@ -129,7 +190,7 @@
 
     .container section#vision {
         width: 100%;
-        height: 700px;
+        height: 600px;
         padding: 10px;
         margin-bottom: 25px;
         border: 1px solid rgb(180, 179, 179);
@@ -137,7 +198,7 @@
     }
 
     .container section#vision .vision-item {
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
 
     .container section#vision .vision-item .vision-img img {
@@ -149,14 +210,21 @@
     .container section#vision .vision-item .vision-notes {
         align-items: center;
         text-align: center;
-        padding-top: 10px;
+        padding-top: 1px;
+        margin-bottom: 25px;
+    }
+
+    .container section#donnees .donnees-item .donnees-notes h1 {
+        color: #fff;
+        font-size: 50px;
+        padding-top: 8px;
     }
 
     .container section#donnees {
         width: 100%;
-        height: 820px;
+        height: 770px;
         padding: 10px;
-        margin-bottom: 10px;
+        margin-bottom: 25px;
         border: 1px solid rgb(180, 179, 179);
         border-radius: 10px;
     }
@@ -167,7 +235,7 @@
 
     .container section#donnees .donnees-item .donnees-img img {
         width: 100%;
-        height: 400px;
+        height: 350px;
         border-radius: 25px;
         margin-top: 25px;
     }
@@ -176,7 +244,7 @@
         width: 100%;
         height: 730px;
         padding: 10px;
-        margin-bottom: 300px;
+        margin-bottom: 30px;
         border: 1px solid rgb(180, 179, 179);
         border-radius: 10px;
     }
@@ -194,17 +262,27 @@
     .container section#cours .cours-item .cours-notes {
         align-items: center;
         text-align: center;
-        padding-bottom: 80px;
+        padding-bottom: 50px;
     }
 
     .container section#guide {
         width: 100%;
-        height: 420px;
+        height: 350px;
         background-color: #161A1D;
         border-radius: 25px;
         align-items: center;
         text-align: center;
         margin-bottom: 150px;
+    }
+
+    .container section#guide .guide-items .guide-item h1 {
+        color: #fff;
+        font-size: 30px;
+    }
+
+    .container section#guide .guide-items .guide-item p {
+        color: #9DA7B6;
+        font-size: 15px;
     }
 
     .container section#guide .guide-items .guide-btn a {
@@ -221,6 +299,16 @@
 
     .container section#footer-one .footer-one-items {
         display: block;
+    }
+
+    .container section#footer-one .footer-one-items .footer-one-products-company {
+        display: flex;
+        padding: 0px;
+        margin-bottom: 20px;
+    }
+
+    .container section#footer-one .footer-one-items .footer-one-products-company .footer-one-products {
+        margin-right: 120px;
     }
 
     .container section#footer-two {
