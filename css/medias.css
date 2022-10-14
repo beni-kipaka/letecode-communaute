@@ -1,6 +1,7 @@
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
 
     .container {
+        width: 100%;
         margin: 0px;
         padding: 0 12px;
     }
@@ -17,6 +18,7 @@
         width: 400px;
         height: 5rem;
         z-index: 999;
+        padding: 0;
     }
 
     header nav .header-btns {
