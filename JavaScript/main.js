@@ -6,17 +6,27 @@ $(document).ready(function(){
 })
 
 
-const navMenu = document.getElementById('nav-menu'),
-    toggleMenu = document.getElementById('toggle-menu'),
-    closeMenu = document.getElementById('close-menu')
+const hamburger = document.querySelector(".hamburger");
+const navMenu = document.querySelector(".nav-menu");
 
-toggleMenu.addEventListener('click', () => {
-    navMenu.classList.toggle('show_menu')
+
+hamburger.addEventListener("click", () => {
+    hamburger.classList.toggle("active");
+    navMenu.classList.toggle("active");
 })
 
-closeMenu.addEventListener('click', () => {
-    navMenu.classList.remove('show_menu')
-})
+
+document.querySelectorAll(".nav_link").forEach(n => n.addEventListener("click", () => {
+    hamburger.classList.remove("active");
+    navMenu.classList.remove("active");
+}))
+
+
+
+
+
+
+
 
 
 
