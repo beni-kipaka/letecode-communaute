@@ -6,8 +6,6 @@
         padding: 0 12px;
     }
 
-    .container .btn-scroll
-
     header{
         position: fixed;
         position: sticky;
@@ -120,12 +118,25 @@
         font-size: 20px;
     }
 
+
+
+
+
+
+    /* Debut section Slider */
     .container section#slider {
         width: 100%;
         float: left;
         margin-top: 0px;
     }
+    /* Fin section Slider */
 
+
+
+
+
+
+    /* Debut section partenaires */
     .container section#partenaires .partenaire-logo {
         align-items: center;
         text-align: center;
@@ -155,7 +166,11 @@
         color: #097cf6;
         font-size: 17px;
     }
+    /* Fin section partenaires */
 
+
+
+    /* Debut section navigatation */
     .container section#navigation{
         padding: 0 5px;
         height: 680px;
@@ -180,7 +195,12 @@
         border-radius: 25px;
         object-fit: cover;
     }
+    /* Fin section navigation */
 
+
+
+
+    /* Debut section mentorat */
     .container section#mentorat {
         width: 100%;
         height: 600px;
@@ -206,7 +226,12 @@
         border-radius: 25px;
         object-fit: cover;
     }
+    /* Fin section mentorat */
 
+
+
+
+    /* Section search */
     .container section#search {
         width: 100%;
         height: 660px;
@@ -231,7 +256,12 @@
         padding-bottom: 25px;
         padding-top: 1px;
     }
+    /* Fin section Search */
 
+
+
+
+    /* Debut Section customer */
     .container section#customer {
         width: 100%;
         height: 800px;
@@ -259,7 +289,11 @@
         width: 100%;
         height: 500px;
     }
+    /* Fin section customer */
 
+
+
+    /* Debut section caroussel horizontal */
     .container .carousel-item .card img{
         width: 100%;
         height: 200px;
@@ -281,7 +315,12 @@
         border-radius: 3px;
         color: #F5F5F5;
     }
+    /* Fin section caroussel horizontal */
 
+
+
+
+    /* Section vision */
     .container section#vision {
         width: 100%;
         height: 600px;
@@ -306,7 +345,11 @@
         margin-bottom: 25px;
         text-align: justify;
     }
+    /* Fin section vsion */
 
+
+
+    /* debut section donnees */
     .container section#donnees {
         width: 100%;
         height: 715px;
@@ -340,7 +383,12 @@
         margin-top: 25px;
         object-fit: cover;
     }
+    /* Fin section donnees */
 
+
+
+
+    /* Debut section cours */
     .container section#cours {
         width: 100%;
         height: 650px;
@@ -365,7 +413,12 @@
         padding-bottom: 20px;
         padding-top: 10px;
     }
+    /* Fin section cours */
 
+
+
+
+    /* Debut section guide */
     .container section#guide {
         width: 100%;
         height: 350px;
@@ -397,7 +450,12 @@
         color: #9DA7B6;
         font-size: 15px;
     }
+    /* Fin section guide */
 
+
+
+
+    /* Debut section footer-one */
     .container section#footer-one {
         width: 100%;
         height: 1100px;
@@ -416,7 +474,11 @@
     .container section#footer-one .footer-one-items .footer-one-products-company .footer-one-products {
         margin-right: 120px;
     }
+    /* Fin section footer-one */
 
+
+
+    /* Debut section footer-two */
     .container section#footer-two {
     width: 100%;
     height: 150px;
@@ -447,7 +509,11 @@
         align-items: center;
         text-align: center;
     }
+    /* Fin section footer-two */
 
+
+
+    /* Debut cookie-container */
     .container .cookie-container.active {
         bottom: 10px;
         width: 300px;
@@ -488,4 +554,6 @@
         height: 50px;
         cursor: pointer;
     }
+    /* Fin cookie-container */
 }
+/* Media Query max-width: 500px */
