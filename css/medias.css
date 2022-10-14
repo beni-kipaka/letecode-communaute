@@ -17,16 +17,17 @@
         width: 100%;
         height: 5rem;
         z-index: 999;
+        padding: 50px;
     }
 
     header nav .header-btns {
-        height: 50px;
-        padding-top: 15px;
+        margin-left: 200px;
     }
 
     header nav .header-btns .btn-one {
         color: #fff;
-        margin-right: 25px;
+        margin-right: 2px;
+        display: none;
     }
 
     #nav-menu{

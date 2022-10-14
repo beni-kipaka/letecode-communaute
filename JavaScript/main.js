@@ -1,13 +1,3 @@
-$(document).ready(function(){
-    $('.bxslider').bxSlider({
-      mode: 'horizontal',
-      auto: true
-    });
-})
-
-
-
-
 const btnScrol = document.querySelector('.btn-scroll');
 
 btnScrol.addEventListener('click', () => {
@@ -17,6 +7,19 @@ btnScrol.addEventListener('click', () => {
         behavior: "smooth",
     })
 })
+
+
+
+
+
+
+$(document).ready(function(){
+    $('.bxslider').bxSlider({
+      mode: 'horizontal',
+      auto: true
+    });
+})
+
 
 
 
