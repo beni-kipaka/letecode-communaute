@@ -6,6 +6,23 @@ $(document).ready(function(){
 })
 
 
+
+
+const btnScrol = document.querySelector('.btn-scroll');
+
+btnScrol.addEventListener('click', () => {
+    window.scrollTo({
+        top:0,
+        left:0,
+        behavior: "smooth",
+    })
+})
+
+
+
+
+
+
 const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".nav-menu");
 

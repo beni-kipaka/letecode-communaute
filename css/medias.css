@@ -5,6 +5,8 @@
         padding: 0 12px;
     }
 
+    .container .btn-scroll
+
     header{
         position: fixed;
         position: sticky;
@@ -125,6 +127,7 @@
     .container section#navigation{
         padding: 0 5px;
         height: 680px;
+        text-align: justify;
     }
 
     .container section#navigation h1 {
@@ -160,7 +163,7 @@
 
     .container section#mentorat .mentorat-item .mentorat-notes {
         align-items: center;
-        text-align: center;
+        text-align: justify;
         padding-top: 1px;
         padding-bottom: 25px;
     }
@@ -192,7 +195,7 @@
 
     .container section#search .search-item .search-notes {
         align-items: center;
-        text-align: center;
+        text-align: justify;
         padding-bottom: 25px;
         padding-top: 1px;
     }
@@ -201,6 +204,7 @@
         width: 100%;
         height: 800px;
         margin-bottom: 200px;
+        margin-left: 5px;
     }
 
     .container section#customer .customer-item {
@@ -224,6 +228,28 @@
         height: 500px;
     }
 
+    .container .carousel-item .card img{
+        width: 100%;
+        height: 200px;
+    }
+
+        ::-webkit-scrollbar-track {
+        background-color: #F5F5F5;
+        color: #F5F5F5;
+    }
+
+    ::-webkit-scrollbar {
+        height: 1px;
+        background-color: #F5F5F5;
+        color: #F5F5F5;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background-color: #3d4852;
+        border-radius: 3px;
+        color: #F5F5F5;
+    }
+
     .container section#vision {
         width: 100%;
         height: 600px;
@@ -243,10 +269,10 @@
     }
 
     .container section#vision .vision-item .vision-notes {
-        align-items: center;
-        text-align: center;
         padding-top: 1px;
+        align-items: normal;
         margin-bottom: 25px;
+        text-align: justify;
     }
 
     .container section#donnees {
@@ -258,6 +284,10 @@
 
     .container section#donnees .donnees-item {
         flex-direction: column;
+    }
+
+    .container section#donnees .donnees-item .donnees-notes{
+        text-align: justify;
     }
 
     .container section#donnees .donnees-item .donnees-notes h1 {
@@ -273,7 +303,7 @@
 
     .container section#donnees .donnees-item .donnees-img img {
         width: 100%;
-        height: 360px;
+        height: 320px;
         border-radius: 25px;
         margin-top: 25px;
         object-fit: cover;
@@ -281,7 +311,7 @@
 
     .container section#cours {
         width: 100%;
-        height: 600px;
+        height: 650px;
         padding: 10px;
         margin-bottom: 30px;
     }
@@ -299,7 +329,7 @@
 
     .container section#cours .cours-item .cours-notes {
         align-items: center;
-        text-align: center;
+        text-align: justify;
         padding-bottom: 20px;
         padding-top: 10px;
     }
@@ -399,7 +429,7 @@
         height: 70px;
         display: flex;
         border-radius: 50px;
-        margin-left: 40px;
+        margin-left: 50px;
         transition: .4s;
         text-align: center;
         align-items: center;
