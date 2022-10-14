@@ -57,6 +57,7 @@
         width: 50%;
         align-items: center;
         transition: 0.6s;
+        border-bottom-right-radius: 25px;
     }
 
     .nav-menu .nav_item{
