@@ -207,179 +207,62 @@ header nav .nav-menu{
 }
 
 
-.container .accueil-page{
+
+
+/* Section page d'accueil */
+
+.container section#page-accueil{
     width: 100%;
-    padding-bottom: 500px;
-    background: url('/images/letecode-academy.jpg');
-    background-size: cover;
+    height: 250px;
+    padding-top: 80px;
+    padding-bottom: 350px;
 }
 
-.container .accueil-page .container-first{
-    position: absolute;
-    top: 30%;
-    left: 5%;
-}
-
-.container .accueil-page h1{
-    text-transform: uppercase;
-    font-size: 110px;
-    color: #f1f1f1;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.container .accueil-page h1 span{
-    position: relative;
-    font-size: 95px;
-}
-
-.container .accueil-page .container-btns{
-    position: relative;
-    top: 50px;
-}
-
-.container .accueil-page .btn-first{
-    border: 2px solid #DE2588;
-    outline: none;
-    background: transparent;
-    font-size: 30px;
-    padding: 20px;
-    width: 250px;
-    color: #f1f1f1;
-    cursor: pointer;
-    border-radius: 50px;
-}
-
-.container .accueil-page .container-first .container-btns .b2{
-    width: 400px;
-    height: 93px;
-    font-size: 23px;
-    margin-left: 30px;
-    border-radius: 50px;
-}
-
-.container .accueil-page .btn-first:nth-child(1){
-    margin-right: 30px;
-}
-
-.container .accueil-page .btn-first:hover{
-    transition: all 0.3s ease-in-out;
-    background: #1Cb7E8;
-    color: #333;
-    border: 3px solid #DE2588;
-}
-
-.container .accueil-page .lignes{
-    position: absolute;
-    top: 6%;
-    left: 5%;
-}
-
-.container .accueil-page .l1{
-    width: 250px;
-    height: 3px;
-    background: #f1f1f1;
-    border-radius: 5px;
-}
-
-.container .accueil-page .l2{
-    width: 140px;
-    height: 3px;
-    background: #f1f1f1;
-    border-radius: 5px;
-    position: relative;
-    top: 20px;
-}
-
-.container .accueil-page .logo{
-    position: absolute;
-    right: 2.9%;
-    top: 4%;
-    width: 80px;
-    height: 80px;
-    cursor: pointer;
-}
-
-.container .accueil-page .medias{
-    list-style-type: none;
-    position: absolute;
-    right: 2%;
-    top: 50%;
-    transform: translateY(-50%);
-    display: flex;
-    justify-content: center;
+.container section#page-accueil .page-accueil-item{
     align-items: center;
-    flex-direction: column;
-}
-
-.container .accueil-page .bulle {
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    border: 1px solid #f1f1f1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 10px 0;
-    background: #f1f1f1;
-    cursor: pointer;
-    position: relative;
-}
-
-.container .accueil-page .logo-medias{
-    width: 40px;
-    height: 40px;
-    color: #a92ec8;
-}
-
-
-
-
-.container {
-    margin-top: 100px;
-}
-
-.container section#container .centre{
-    width: 100%;
     text-align: center;
-    align-items: center;
 }
 
-.container section#container .para{
-    width: 100%;
-    height: 100px;
-    padding-top: 120px;
-}
-
-.container section#container p{
+.container section#page-accueil .page-accueil-item .item-deux{
     color: #A0AABA;
-    font-size: 35px;
+    font-size: 40px;
 }
 
-.container section#container .button {
-    width: 100%;
-    height: 100px;
-    margin-top: 120px;
+.container section#page-accueil .page-accueil-item .button{
+    padding-top: 25px;
 }
 
-.container section#container .centre .button a{
+.container section#page-accueil .page-accueil-item a{
+    color: #fff;
     background-color: #097cf6;
-    padding: 10px 20px;
-    border-radius: 50px;
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
+    padding: 10px;
+    border-radius: 25px;
 }
 
-.container section#container .centre a:hover{
-    background-color: #3392f6;
+.container section#page-accueil .page-accueil-item a:hover{
+    background-color: transparent;
+    color: #097cf6;
+    border: 1px solid #097cf6;
 }
+
+.container section#page-accueil .page-accueil-item .item-un span{
+    color: #fff;
+    font-weight: bold;
+    font-size: 70px;
+}
+
+/* Fin Section page d'accueil  */
+
+
+
+
 
 /* Slider */
 
 .container section#slider{
     width: 100%;
-    max-width: 100%;
     float: left;
+    padding-top: 50px;
 }
 /* End Slider */
 
